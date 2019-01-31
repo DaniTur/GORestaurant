@@ -1,0 +1,86 @@
+/*WEB BACKGROUND*/
+body {
+    background-image: url(../img/background.png);
+}
+
+.logo-col{
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+/*MENU WIDTH 100% OF THE ROW*/
+.menu{
+    width: 100%;
+}
+
+/*NAVBAR REPOSITION from bootstrap and font-awesome*/
+.navbar {
+    border-radius: 3px;
+}
+.navbar-brand{
+    margin-right: 1.5rem;
+}
+
+.form-inline{
+    padding-right: 20px
+}
+
+.fa-search {
+    display: flex;
+}
+
+.input-group{
+    padding-right: 20px;
+
+}
+
+/*CARDS*/
+/*card image padding*/
+.no-gutters{
+    padding-left: 15px;
+}
+.restaurant-photo{
+    /*margin: 1rem;*/
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.title-link{
+    text-decoration: none;
+    color:#212529;
+}
+.title-link:hover{
+    text-decoration: none;
+    color:#212529;
+}
+
+.attribute{
+    color:#904c1a;
+}
+/*card width*/
+.restaurant{
+    margin-bottom: 10px;
+}
+
+.login-card{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input{
+    margin-bottom: 1rem;
+}
+.submit{
+    background-color:#904c1a;
+}
+
+hr{
+    border: 0.2rem solid rgb(255, 168, 59);
+    background-color: #ffa83b;
+    height: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/*FOOTER*/
+.footer{
+    background-color: #ffa83b;
+    border-radius: 3px 3px 0px 0px;
+}
